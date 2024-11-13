@@ -25,7 +25,12 @@ class Login extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset("assets/image/login.jpg"),
+                  Image.asset(
+                    "assets/image/login.jpg",
+                    height: 250,
+                    width: 250,
+                    fit: BoxFit.cover,
+                  ),
                   const SizedBox(
                     height: 64,
                   ),
