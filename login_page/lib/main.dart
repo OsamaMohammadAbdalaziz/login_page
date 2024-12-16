@@ -32,7 +32,7 @@ class Login extends StatelessWidget {
                     fit: BoxFit.cover,
                   ),
                   const SizedBox(
-                    height: 64,
+                    height: 20,
                   ),
                   const TextField(
                     keyboardType: TextInputType.emailAddress,
